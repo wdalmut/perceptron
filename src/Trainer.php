@@ -14,7 +14,7 @@ class Trainer
                 $answer = -1;
             }
 
-            $p->train($answer, $x, $y);
+            $p->train($answer, $x, $y, 1);
         }
     }
 
